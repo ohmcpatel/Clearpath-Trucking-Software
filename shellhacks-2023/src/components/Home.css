@@ -1,0 +1,40 @@
+:root {
+    --background-color: #FAFFFD;
+    --primary-button-color: #00BF81;
+    --secondary-button-color: #0057D9;
+    --warning: #FFEB33;
+  }
+  
+  .buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center buttons horizontally */
+    gap: 16px;
+    padding: 32px 0; /* Add padding to space out the buttons from the title */
+  }
+  
+  .button {
+    border-radius: 10px;
+    background-color: var(--secondary-button-color);
+    color: white;
+    width: 260px; /* Slightly reduce button width for a more compact look */
+    padding: 12px 0; /* Adjust padding for a more balanced button size */
+    font-size: large;
+    border: none;
+    font-weight: bold;
+    cursor: pointer; /* Add pointer cursor for better UX */
+    transition: background-color 0.3s; /* Smooth button color transition */
+  }
+  
+  .button:hover {
+    background-color: var(--primary-button-color); /* Highlight on hover */
+  }
+  
+  .title {
+    margin-top: 26px; /* Slightly increase top margin for spacing */
+    padding-left: 7px;
+    padding-bottom: 10px; /* Reduce bottom padding for better balance */
+    font-size: x-large; /* Increase font size for emphasis */
+    text-align: center; /* Center-align the title text */
+  }
+  

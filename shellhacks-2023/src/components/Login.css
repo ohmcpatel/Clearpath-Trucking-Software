@@ -1,0 +1,56 @@
+.logo__img{
+margin-left: 113px;
+margin-top: 90px;
+margin-bottom: 50px;
+width: 334px;
+height: 56px;
+flex-shrink: 0;
+
+}
+
+.logo__image-icon{
+transform: scale(1.5);
+}
+
+
+.login__input{
+margin: 16px;
+}
+
+.login__input-value {
+width: 358px;
+height: 40px;
+flex-shrink: 0;
+border-radius: 10px;
+border: 1px solid #0057B9;
+background: #FFF;
+}
+
+
+.log__btn {
+    border-radius: 10px;
+    background-color: var(--secondary-button-color);
+    color:white; 
+    width: 358px;
+    height: 40px;
+    margin-top: 16px;
+    margin-left: 16px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    font-size: x-large;
+    border: white;
+    font-weight: bold;
+}
+
+.login__privacy-link{
+display: flex;
+justify-content: center;
+ margin-top: 16px;
+
+}
+
+.login__title {
+    margin-bottom: 3px;
+    font-weight: bold;
+    margin-left: 2px;
+}

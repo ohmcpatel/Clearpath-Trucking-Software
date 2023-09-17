@@ -1,0 +1,107 @@
+/* Update the root variables with your color scheme */
+:root {
+    --background-color: #FAFFFD;
+    --primary-button-color: #00BF81;
+    --secondary-button-color: #0057D9;
+    --warning: #FFEB33;
+  }
+  
+  /* Style the container for points */
+  .points {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px; /* Increased gap for better spacing */
+    margin: 15px; /* Adjust margin for consistent spacing */
+  }
+  
+  /* Style individual point containers */
+  .point {
+    width: 100%; /* Make each point container full-width */
+    max-width: 300px; /* Limit maximum width for better readability */
+    height: 70px;
+    padding: 16px; /* Add padding for a clean look */
+    border: 1px solid #ccc; /* Add a subtle border */
+    border-radius: 8px; /* Rounded corners for each point */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a soft shadow */
+    background-color: white; /* White background for contrast */
+  }
+  
+  /* Style the labels for point A and B */
+  .point label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+  }
+  
+  /* Style the Google Places Autocomplete input */
+  .react-google-places-autocomplete__input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+  }
+  
+  /* Style the "Show Route" button */
+  .edit-button-nav {
+    background-color: var(--secondary-button-color);
+    color: white;
+    width: 100%;
+    max-width: 400px;
+    margin-right: 100px !important;
+    padding: 12px;
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .edit-button-nav:hover {
+    background-color: var(--primary-button-color);
+  }
+  
+
+  /* Add this CSS to your stylesheet */
+.modal {
+    position: fixed;
+    top: 50%;
+    left: 40%;
+    transform: translate(-40%, -50%);
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    z-index: 9999; /* Set a high z-index value to make sure it's on top */
+  }
+  
+  .overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background overlay */
+    z-index: 9998; /* Set a z-index value just below the modal */
+  }
+  
+  .input-title {
+    margin-top: 0px;
+    margin-bottom: 7px;
+    font-size: large;
+  }
+  
+  .close-nav {
+    background-color: var(--secondary-button-color);
+    color: white;
+    width: 100%;
+    max-width: 300px;
+    margin-right: 100px !important;
+    padding: 8px;
+    font-size: 14px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }

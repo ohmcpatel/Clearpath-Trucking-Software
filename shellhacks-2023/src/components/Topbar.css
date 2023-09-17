@@ -1,0 +1,26 @@
+:root {
+    --background-color: #FAFFFD;
+    --primary-button-color: #00BF81;
+    --secondary-button-color: #0057D9;
+    --warning: #FFEB33
+  }
+
+.bar {
+    background-color: var(--background-color);
+    height: 40px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.logo {
+    margin-top: 5px;
+    height: 30px;
+    width: auto;
+}
+
+.profile {
+    height: 40px; 
+    width: auto;
+}

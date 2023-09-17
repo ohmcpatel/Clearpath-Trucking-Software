@@ -1,0 +1,19 @@
+:root {
+    --background-color: #FAFFFD;
+    --primary-button-color: #00BF81;
+    --secondary-button-color: #0057D9;
+    --warning: #FFEB33;
+  }
+
+
+.edit-button-nav {
+    border-radius: 10px;
+    background-color: var(--primary-button-color);
+    color:white; 
+    width: 200px;
+    padding: 15px;
+    margin: 10px;
+    font-size: larger;
+    border: white;
+    margin-left: 90px;
+}
